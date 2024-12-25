@@ -9,10 +9,33 @@ body {
 .btn-primary {
     border-radius: 5px;
     background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #181818;
+    
+}
+.section-description{
+    font-size: 18px;
+    
+    text-align: center;
+    color: #757575;
+    
 }
 /* Nav related styles */
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
 }
 .nav-title {
     color: #181818;
@@ -21,6 +44,7 @@ nav {
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li {
     list-style: none;
@@ -29,4 +53,42 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* Header related styles */
+header{
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px   150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-pic {
+    width: 500px;
+}
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+/*about section related styles */
+.about {
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding: 130px;
+    margin: 130px 0 ;
 }
