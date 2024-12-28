@@ -85,10 +85,26 @@ header{
 .banner-content{
     max-width: 500px;
 }
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*about section related styles */
 .about {
     background-color: #fff8f3;
     border-radius: 10px;
     padding: 130px;
     margin: 130px 0 ;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }
